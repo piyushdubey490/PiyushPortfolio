@@ -1,4 +1,4 @@
-import { Brain, ServerCog, Code, Plug, TrendingUp, Rocket } from 'lucide-react';
+import { Brain, ServerCog, Code, Plug, TrendingUp, Rocket, Lightbulb } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { services } from '@/lib/data';
@@ -10,6 +10,7 @@ const iconMap = {
   plug: Plug,
   'chart-line': TrendingUp,
   rocket: Rocket,
+  lightbulb: Lightbulb,
 };
 
 const Services = () => {

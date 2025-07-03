@@ -51,15 +51,27 @@ export const services: Service[] = [
   },
   {
     id: 'consulting',
-    title: 'Tech Strategy & Architecture Consulting',
-    description: 'Strategic technology planning, system architecture design, and technical roadmap development for scalable growth.',
+    title: 'Business Ideas & Feature Consulting',
+    description: 'Help entrepreneurs and co-founders develop app ideas, define web features, and create practical tech solutions for their business.',
     icon: 'chart-line',
     features: [
-      'System Architecture Design',
-      'Technology Stack Selection',
-      'Scalability Planning'
+      'App Ideas for Co-founders',
+      'Web Features Planning',
+      'Business Tech Solutions'
     ],
     gradient: 'from-indigo-500 to-purple-600'
+  },
+  {
+    id: 'startup-ideas',
+    title: 'Startup Ideas & MVP Planning',
+    description: 'Brainstorm innovative startup concepts, validate business ideas, and create roadmaps for minimum viable products.',
+    icon: 'lightbulb',
+    features: [
+      'Startup Concept Development',
+      'Market Research & Validation',
+      'MVP Feature Planning'
+    ],
+    gradient: 'from-yellow-500 to-orange-600'
   }
 ];
 

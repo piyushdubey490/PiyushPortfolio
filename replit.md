@@ -110,6 +110,8 @@ Changelog:
 - July 03, 2025. Updated contact information: email to piyushdubey490@icloud.com, phone to +91 78918 13326
 - July 03, 2025. Fixed contact form to work without EmailJS errors, messages now stored in database
 - July 03, 2025. Updated web development service to remove database design, added WordPress and Wix services
+- July 03, 2025. Modified consulting service to focus on beginner-friendly business ideas and features
+- July 03, 2025. Added new "Startup Ideas & MVP Planning" service for entrepreneurs and co-founders
 ```
 
 ## User Preferences
