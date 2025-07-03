@@ -171,7 +171,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     name: 'Email',
-    url: 'mailto:piyush@example.com',
+    url: 'mailto:piyushdubey490@icloud.com',
     icon: 'envelope',
     color: 'bg-green-600'
   }

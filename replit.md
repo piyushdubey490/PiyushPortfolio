@@ -106,6 +106,9 @@ This is a modern, full-stack professional portfolio application built for Piyush
 ```
 Changelog:
 - July 02, 2025. Initial setup
+- July 03, 2025. Fixed social media icons in footer (replaced Font Awesome with React Icons)
+- July 03, 2025. Updated contact information: email to piyushdubey490@icloud.com, phone to +91 78918 13326
+- July 03, 2025. Fixed contact form to work without EmailJS errors, messages now stored in database
 ```
 
 ## User Preferences

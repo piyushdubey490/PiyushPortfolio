@@ -40,7 +40,27 @@ const Contact = () => {
     setIsLoading(true);
     
     try {
-      await sendContactEmail(formData);
+      // Store in database
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to send message');
+      }
+
+      const result = await response.json();
+      
+      // Try to send email, but don't fail if it doesn't work
+      try {
+        await sendContactEmail(formData);
+      } catch (emailError) {
+        console.log('Email sending failed, but message was stored:', emailError);
+      }
       
       toast({
         title: "Message Sent!",
@@ -212,8 +232,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-800 dark:text-white">Email</h4>
-                      <a href="mailto:piyush@example.com" className="text-blue-500 hover:underline">
-                        piyush@example.com
+                      <a href="mailto:piyushdubey490@icloud.com" className="text-blue-500 hover:underline">
+                        piyushdubey490@icloud.com
                       </a>
                     </div>
                   </div>
@@ -224,8 +244,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-800 dark:text-white">WhatsApp</h4>
-                      <a href="https://wa.me/1234567890" className="text-green-500 hover:underline">
-                        +91 99999 99999
+                      <a href="https://wa.me/917891813326" className="text-green-500 hover:underline">
+                        +91 78918 13326
                       </a>
                     </div>
                   </div>
