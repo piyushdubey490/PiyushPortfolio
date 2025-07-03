@@ -153,7 +153,7 @@ const About = () => {
                       <CardContent className="p-6">
                         <div className="flex items-start justify-between mb-2">
                           <h5 className="font-semibold text-gray-800 dark:text-white">Freelance Software Engineer</h5>
-                          <span className="text-sm text-gray-500 dark:text-gray-400">2023 - Present</span>
+                          <span className="text-sm text-gray-500 dark:text-gray-400">2024 - Present</span>
                         </div>
                         <p className="text-gray-600 dark:text-gray-300 mb-2">Independent Consultant</p>
                         <ul className="text-sm text-gray-500 dark:text-gray-400 space-y-1">
