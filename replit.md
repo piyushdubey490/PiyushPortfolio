@@ -23,9 +23,10 @@ This is a modern, full-stack professional portfolio application built for Piyush
 
 ### Database & Storage
 - **ORM**: Drizzle ORM for type-safe database operations
-- **Database**: PostgreSQL (configured via Neon serverless)
+- **Database**: PostgreSQL (configured via Neon serverless) - **ACTIVE**
 - **Schema Management**: Drizzle Kit for migrations and schema management
-- **Current Storage**: In-memory storage implementation with interface for easy database migration
+- **Storage Implementation**: DatabaseStorage class with full CRUD operations
+- **Tables**: Users and ContactMessages with proper relations and indexing
 
 ## Key Components
 
