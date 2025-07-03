@@ -117,6 +117,12 @@ Changelog:
 - July 03, 2025. Updated certifications to show real credentials (IBM Cloud Essentials, Network Configuration, Database Management)
 - July 03, 2025. Updated education section with actual LPU details (B.Tech CSE, CGPA 8.41/10, Aug 2020-June 2024)
 - July 03, 2025. Updated experience section with real K & S Partners internship (Oct 2023-July 2024) and current freelance work
+- July 03, 2025. Enhanced AI/ML skills with advanced techniques (TensorFlow, XGBoost, Random Forest, SVM)
+- July 03, 2025. Added dedicated Computer Vision & NLP category (YOLOv8, OpenCV, Faster R-CNN, Object Detection, NLP)
+- July 03, 2025. Added Data Analytics & ERP category including new SAP ABAP HANA skills
+- July 03, 2025. Updated projects with real resume projects: Object Detection with YOLOv8, Indian Law Chatbot, enhanced ML models
+- July 03, 2025. Added SAP ABAP HANA Business Intelligence project showcasing ERP expertise
+- July 03, 2025. Updated certifications to include NLP Specialization from DeepLearning.ai (Andrew Ng)
 ```
 
 ## User Preferences

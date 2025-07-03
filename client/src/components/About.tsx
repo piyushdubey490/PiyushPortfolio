@@ -24,6 +24,8 @@ const About = () => {
       orange: 'bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200',
       red: 'bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200',
       indigo: 'bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200',
+      cyan: 'bg-cyan-100 dark:bg-cyan-900 text-cyan-800 dark:text-cyan-200',
+      yellow: 'bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200',
     };
     return colorMap[color as keyof typeof colorMap] || colorMap.blue;
   };

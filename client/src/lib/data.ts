@@ -85,10 +85,10 @@ export const projects: Project[] = [
     gradient: 'from-blue-400 to-purple-500'
   },
   {
-    id: 'organic-fruit-app',
-    title: 'Organic Fruit Full Stack Development',
-    description: 'Full-stack web application with React JS frontend and Node JS backend, implementing RESTful APIs, user authentication, and MongoDB database management.',
-    technologies: ['React JS', 'Node JS', 'Express', 'MongoDB', 'REST API'],
+    id: 'indian-law-chatbot',
+    title: 'Indian Law Information Chat Bot',
+    description: 'AI-powered chatbot for querying CRPC and IPC documents using Llama Indexing and OpenAI API, streamlining legal document access and enhancing user engagement.',
+    technologies: ['Python', 'OpenAI API', 'Llama Indexing', 'NLP', 'Generative AI', 'Legal Tech'],
     image: '/api/placeholder/400/200',
     gradient: 'from-green-400 to-blue-500'
   },
@@ -101,20 +101,28 @@ export const projects: Project[] = [
     gradient: 'from-purple-400 to-pink-500'
   },
   {
-    id: 'powerbi-dashboard',
-    title: 'Data Visualization Dashboard with Power BI',
-    description: 'Interactive Power BI dashboard for real-time analytics on cloud and DevOps operations, providing insights into resource utilization and enabling informed decision-making.',
-    technologies: ['Power BI', 'Data Analytics', 'Cloud Operations', 'DevOps Monitoring'],
+    id: 'object-detection-tracking',
+    title: 'Object Detection, Tracking & Counting in Polygon Zone',
+    description: 'Cutting-edge system for object detection, tracking, and counting within a polygon zone, achieving 50% efficiency boost using YOLOv8, OpenCV, ByteTrack, and Detectron2.',
+    technologies: ['YOLOv8', 'OpenCV', 'ByteTrack', 'Detectron2', 'Computer Vision', 'Deep Learning'],
     image: '/api/placeholder/400/200',
-    gradient: 'from-yellow-400 to-orange-500'
+    gradient: 'from-cyan-400 to-blue-500'
   },
   {
     id: 'ml-model-deployment',
-    title: 'Machine Learning Model Deployment with Flask & AWS',
-    description: 'Breast cancer prediction model deployed using Flask backend on AWS EC2, with automated deployment pipeline for scalable ML applications.',
-    technologies: ['Python', 'Flask', 'Machine Learning', 'AWS EC2', 'Docker', 'Scikit-learn'],
+    title: 'Breast Cancer Prediction Model with ML Algorithms',
+    description: 'Advanced healthcare prediction model leveraging Decision Trees, SVM, KNN, and Random Forest algorithms to enhance prediction accuracy through algorithm comparison and optimization.',
+    technologies: ['Python', 'Scikit-learn', 'SVM', 'Random Forest', 'KNN', 'Decision Trees', 'Machine Learning'],
     image: '/api/placeholder/400/200',
     gradient: 'from-pink-400 to-red-500'
+  },
+  {
+    id: 'sap-abap-hana',
+    title: 'SAP ABAP HANA Business Intelligence System',
+    description: 'Enterprise-level business intelligence solution built with SAP ABAP HANA for real-time data processing, analytics, and reporting to support strategic business decisions.',
+    technologies: ['SAP ABAP', 'SAP HANA', 'Business Intelligence', 'Data Analytics', 'ERP Systems', 'SQL'],
+    image: '/api/placeholder/400/200',
+    gradient: 'from-yellow-400 to-orange-500'
   }
 ];
 
@@ -131,13 +139,23 @@ export const skills: Skill[] = [
   },
   {
     category: 'AI/ML & Data Science',
-    skills: ['Scikit-learn', 'PyTorch', 'Keras', 'Pandas', 'NumPy', 'Matplotlib', 'Power BI', 'Tableau'],
+    skills: ['TensorFlow', 'PyTorch', 'Keras', 'Scikit-learn', 'XGBoost', 'Deep Learning', 'Random Forest', 'SVM'],
     color: 'green'
   },
   {
+    category: 'Computer Vision & NLP',
+    skills: ['OpenCV', 'YOLOv8', 'Faster R-CNN', 'Mask R-CNN', 'Object Detection', 'Image Segmentation', 'Facial Recognition', 'NLP'],
+    color: 'cyan'
+  },
+  {
     category: 'Web Development',
-    skills: ['React JS', 'Node JS', 'Express', 'FastAPI', 'REST APIs', 'MongoDB', 'PostgreSQL'],
+    skills: ['React JS', 'Node JS', 'Express', 'FastAPI', 'REST APIs', 'MongoDB', 'PostgreSQL', 'SQLAlchemy'],
     color: 'orange'
+  },
+  {
+    category: 'Data Analytics & ERP',
+    skills: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Power BI', 'Tableau', 'SAP ABAP HANA', 'SQL'],
+    color: 'yellow'
   },
   {
     category: 'Infrastructure & Monitoring',
@@ -159,15 +177,21 @@ export const certifications: Certification[] = [
     icon: 'certificate'
   },
   {
+    title: 'Natural Language Processing Specialization',
+    issuer: 'Coursera, DeepLearning.ai (Andrew Ng)',
+    color: 'green',
+    icon: 'certificate'
+  },
+  {
     title: 'Network and System Configuration Fundamentals',
     issuer: 'LPU Value Added Course – CompTIA A+ equivalent',
-    color: 'green',
+    color: 'purple',
     icon: 'certificate'
   },
   {
     title: 'Database Management Systems-1',
     issuer: 'Infosys Springboard',
-    color: 'purple',
+    color: 'orange',
     icon: 'certificate'
   }
 ];
