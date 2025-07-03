@@ -89,7 +89,7 @@ const About = () => {
                       <CardContent className="p-6">
                         <div className="flex items-start justify-between mb-2">
                           <h5 className="font-semibold text-gray-800 dark:text-white">Software Developer</h5>
-                          <span className="text-sm text-gray-500 dark:text-gray-400">2025 - Present</span>
+                          <span className="text-sm text-gray-500 dark:text-gray-400">30 June 2025 - Present</span>
                         </div>
                         <p className="text-gray-600 dark:text-gray-300 mb-2">Wipro Technologies</p>
                         <ul className="text-sm text-gray-500 dark:text-gray-400 space-y-1">
