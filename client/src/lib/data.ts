@@ -77,42 +77,42 @@ export const services: Service[] = [
 
 export const projects: Project[] = [
   {
-    id: 'object-detection',
-    title: 'Object Detection in Polygon Zone',
-    description: 'Real-time object detection system using YOLO and OpenCV to monitor specific zones and trigger alerts based on detected objects.',
-    technologies: ['Python', 'YOLO', 'OpenCV', 'Computer Vision'],
+    id: 'cloud-infrastructure-automation',
+    title: 'Cloud Infrastructure Automation with Terraform & AWS',
+    description: 'Automated AWS cloud infrastructure deployment using Terraform, managing EC2 instances, VPCs, Load Balancers, S3 buckets and IAM policies, reducing deployment time significantly.',
+    technologies: ['Terraform', 'AWS', 'EC2', 'VPC', 'S3', 'IAM'],
     image: '/api/placeholder/400/200',
     gradient: 'from-blue-400 to-purple-500'
   },
   {
-    id: 'law-chatbot',
-    title: 'Indian Law Chatbot',
-    description: 'AI-powered legal assistant providing instant answers to Indian law queries using NLP and legal document processing.',
-    technologies: ['Python', 'NLP', 'Transformers', 'Flask'],
+    id: 'organic-fruit-app',
+    title: 'Organic Fruit Full Stack Development',
+    description: 'Full-stack web application with React JS frontend and Node JS backend, implementing RESTful APIs, user authentication, and MongoDB database management.',
+    technologies: ['React JS', 'Node JS', 'Express', 'MongoDB', 'REST API'],
     image: '/api/placeholder/400/200',
     gradient: 'from-green-400 to-blue-500'
   },
   {
-    id: 'ecommerce-pipeline',
-    title: 'CI/CD Ecommerce Pipeline',
-    description: 'Complete DevOps pipeline for e-commerce platform with automated testing, deployment, and monitoring capabilities.',
-    technologies: ['Docker', 'Jenkins', 'Kubernetes', 'AWS'],
+    id: 'task-management-api',
+    title: 'Backend for Task Management System API',
+    description: 'FastAPI-based backend system for managing tasks, projects, and deadlines with OAuth2 authentication and JWT tokens, deployed on AWS EC2 using Docker.',
+    technologies: ['FastAPI', 'PostgreSQL', 'SQLAlchemy', 'OAuth2', 'Docker', 'AWS EC2'],
     image: '/api/placeholder/400/200',
     gradient: 'from-purple-400 to-pink-500'
   },
   {
-    id: 'cloud-infrastructure',
-    title: 'Cloud Infrastructure with Terraform',
-    description: 'Scalable cloud infrastructure deployment using Infrastructure as Code principles with Terraform and AWS services.',
-    technologies: ['Terraform', 'AWS', 'IaC', 'CloudFormation'],
+    id: 'powerbi-dashboard',
+    title: 'Data Visualization Dashboard with Power BI',
+    description: 'Interactive Power BI dashboard for real-time analytics on cloud and DevOps operations, providing insights into resource utilization and enabling informed decision-making.',
+    technologies: ['Power BI', 'Data Analytics', 'Cloud Operations', 'DevOps Monitoring'],
     image: '/api/placeholder/400/200',
     gradient: 'from-yellow-400 to-orange-500'
   },
   {
-    id: 'cancer-prediction',
-    title: 'Breast Cancer Prediction',
-    description: 'Machine learning model for early breast cancer detection using medical imaging data and advanced classification algorithms.',
-    technologies: ['Python', 'Scikit-learn', 'Pandas', 'Jupyter'],
+    id: 'ml-model-deployment',
+    title: 'Machine Learning Model Deployment with Flask & AWS',
+    description: 'Breast cancer prediction model deployed using Flask backend on AWS EC2, with automated deployment pipeline for scalable ML applications.',
+    technologies: ['Python', 'Flask', 'Machine Learning', 'AWS EC2', 'Docker', 'Scikit-learn'],
     image: '/api/placeholder/400/200',
     gradient: 'from-pink-400 to-red-500'
   }
@@ -121,42 +121,52 @@ export const projects: Project[] = [
 export const skills: Skill[] = [
   {
     category: 'Programming Languages',
-    skills: ['Python', 'JavaScript', 'TypeScript', 'Java'],
+    skills: ['Python', 'Java', 'C/C++', 'JavaScript', 'Bash/Shell'],
     color: 'blue'
   },
   {
-    category: 'AI/ML Tools',
-    skills: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'OpenCV'],
-    color: 'green'
-  },
-  {
-    category: 'DevOps & Cloud',
-    skills: ['Docker', 'Kubernetes', 'AWS', 'Terraform'],
+    category: 'Cloud & DevOps',
+    skills: ['AWS (EC2, S3, IAM, VPC)', 'Docker', 'Kubernetes', 'Jenkins', 'Terraform', 'GitLab', 'CI/CD'],
     color: 'purple'
   },
   {
-    category: 'Web Technologies',
-    skills: ['React', 'Next.js', 'Node.js', 'MongoDB'],
+    category: 'AI/ML & Data Science',
+    skills: ['Scikit-learn', 'PyTorch', 'Keras', 'Pandas', 'NumPy', 'Matplotlib', 'Power BI', 'Tableau'],
+    color: 'green'
+  },
+  {
+    category: 'Web Development',
+    skills: ['React JS', 'Node JS', 'Express', 'FastAPI', 'REST APIs', 'MongoDB', 'PostgreSQL'],
     color: 'orange'
+  },
+  {
+    category: 'Infrastructure & Monitoring',
+    skills: ['Ansible', 'Nagios', 'Prometheus', 'Grafana', 'VMware', 'Linux Administration'],
+    color: 'red'
+  },
+  {
+    category: 'Development Tools',
+    skills: ['Git', 'VS Code', 'Jupyter', 'PyCharm', 'Postman', 'Jira', 'Agile Methodology'],
+    color: 'indigo'
   }
 ];
 
 export const certifications: Certification[] = [
   {
-    title: 'AWS Solutions Architect',
-    issuer: 'Amazon Web Services',
+    title: 'IBM Cloud Essentials',
+    issuer: 'IBM, Coursera',
     color: 'blue',
     icon: 'certificate'
   },
   {
-    title: 'Google Cloud Professional',
-    issuer: 'Google Cloud Platform',
+    title: 'Network and System Configuration Fundamentals',
+    issuer: 'LPU Value Added Course – CompTIA A+ equivalent',
     color: 'green',
     icon: 'certificate'
   },
   {
-    title: 'TensorFlow Developer',
-    issuer: 'Google',
+    title: 'Database Management Systems-1',
+    issuer: 'Infosys Springboard',
     color: 'purple',
     icon: 'certificate'
   }
