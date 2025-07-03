@@ -123,6 +123,7 @@ Changelog:
 - July 03, 2025. Updated projects with real resume projects: Object Detection with YOLOv8, Indian Law Chatbot, enhanced ML models
 - July 03, 2025. Added SAP ABAP HANA Business Intelligence project showcasing ERP expertise
 - July 03, 2025. Updated certifications to include NLP Specialization from DeepLearning.ai (Andrew Ng)
+- July 03, 2025. Enhanced hero section with 4 action buttons: Hire Me, Book a Free Call, WhatsApp DM, and LinkedIn
 ```
 
 ## User Preferences

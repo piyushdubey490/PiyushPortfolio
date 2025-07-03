@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import { FaHandshake, FaCalendarAlt, FaWhatsapp, FaLinkedin } from 'react-icons/fa';
 
 const Hero = () => {
   const handleHireMe = () => {
@@ -11,6 +12,16 @@ const Hero = () => {
   const handleBookCall = () => {
     // Replace with actual booking link
     window.open('https://calendly.com/piyushdubey', '_blank');
+  };
+
+  const handleWhatsApp = () => {
+    // WhatsApp direct message link
+    window.open('https://wa.me/917891813326?text=Hi%20Piyush,%20I%20would%20like%20to%20discuss%20a%20project%20with%20you.', '_blank');
+  };
+
+  const handleLinkedIn = () => {
+    // LinkedIn profile link
+    window.open('https://www.linkedin.com/in/piyush-dubey-professional/', '_blank');
   };
 
   return (
@@ -43,21 +54,36 @@ const Hero = () => {
             Building scalable AI/DevOps solutions with impact. Transforming ideas into robust, intelligent systems that drive business growth.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-center items-center mb-12 max-w-4xl mx-auto">
             <Button 
               onClick={handleHireMe}
-              className="px-8 py-4 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 animate-glow"
+              className="px-6 py-4 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 animate-glow"
             >
-              <i className="fas fa-handshake mr-2"></i>
+              <FaHandshake className="mr-2" />
               Hire Me
             </Button>
             <Button 
               variant="outline"
               onClick={handleBookCall}
-              className="px-8 py-4 border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white font-semibold rounded-lg transition-all duration-300"
+              className="px-6 py-4 border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white font-semibold rounded-lg transition-all duration-300"
             >
-              <i className="fas fa-calendar-alt mr-2"></i>
+              <FaCalendarAlt className="mr-2" />
               Book a Free Call
+            </Button>
+            <Button 
+              onClick={handleWhatsApp}
+              className="px-6 py-4 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+            >
+              <FaWhatsapp className="mr-2" />
+              WhatsApp DM
+            </Button>
+            <Button 
+              variant="outline"
+              onClick={handleLinkedIn}
+              className="px-6 py-4 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-lg transition-all duration-300"
+            >
+              <FaLinkedin className="mr-2" />
+              LinkedIn
             </Button>
           </div>
           
