@@ -115,6 +115,8 @@ Changelog:
 - July 03, 2025. Updated all skills sections to match actual resume expertise (6 categories including Infrastructure & Monitoring, Development Tools)
 - July 03, 2025. Replaced all projects with actual resume projects (Cloud Infrastructure Automation, Organic Fruit App, Task Management API, Power BI Dashboard, ML Model Deployment)
 - July 03, 2025. Updated certifications to show real credentials (IBM Cloud Essentials, Network Configuration, Database Management)
+- July 03, 2025. Updated education section with actual LPU details (B.Tech CSE, CGPA 8.41/10, Aug 2020-June 2024)
+- July 03, 2025. Updated experience section with real K & S Partners internship (Oct 2023-July 2024) and current freelance work
 ```
 
 ## User Preferences

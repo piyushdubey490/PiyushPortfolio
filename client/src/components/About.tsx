@@ -56,9 +56,10 @@ const About = () => {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-6">Professional Summary</h3>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
-                  Results-driven Computer Science Engineer with expertise in AI/ML, DevOps, and full-stack development. 
-                  Proven track record of delivering scalable solutions that drive business growth. Passionate about 
-                  leveraging cutting-edge technologies to solve complex problems and optimize workflows.
+                  Experienced Software Engineer with expertise in Cloud and DevOps tools, IT infrastructure & 
+                  management, AI & ML with strong skills in automation, monitoring and scripting. Proven experience 
+                  in patent prosecution and workflow automation, with hands-on experience in building scalable 
+                  applications and cloud infrastructure.
                 </p>
                 
                 {/* Education */}
@@ -67,12 +68,12 @@ const About = () => {
                   <Card className="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600">
                     <CardContent className="p-6">
                       <div className="flex items-start justify-between mb-2">
-                        <h5 className="font-semibold text-gray-800 dark:text-white">Bachelor of Technology - Computer Science</h5>
-                        <span className="text-sm text-gray-500 dark:text-gray-400">2020-2024</span>
+                        <h5 className="font-semibold text-gray-800 dark:text-white">B.Tech in Computer Science and Engineering</h5>
+                        <span className="text-sm text-gray-500 dark:text-gray-400">Aug 2020 – June 2024</span>
                       </div>
-                      <p className="text-gray-600 dark:text-gray-300">XYZ University • CGPA: 8.5/10</p>
+                      <p className="text-gray-600 dark:text-gray-300">Lovely Professional University, Phagwara, Punjab • CGPA: 8.41/10</p>
                       <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-                        Relevant Coursework: Machine Learning, Data Structures, Database Management, Software Engineering
+                        Focus areas: Cloud Computing, AI/ML, DevOps, Software Engineering, Database Management Systems
                       </p>
                     </CardContent>
                   </Card>
@@ -85,14 +86,14 @@ const About = () => {
                     <Card className="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600">
                       <CardContent className="p-6">
                         <div className="flex items-start justify-between mb-2">
-                          <h5 className="font-semibold text-gray-800 dark:text-white">Freelance AI/DevOps Engineer</h5>
-                          <span className="text-sm text-gray-500 dark:text-gray-400">2022 - Present</span>
+                          <h5 className="font-semibold text-gray-800 dark:text-white">Intern</h5>
+                          <span className="text-sm text-gray-500 dark:text-gray-400">Oct 2023 - July 2024</span>
                         </div>
-                        <p className="text-gray-600 dark:text-gray-300 mb-2">Independent Consultant</p>
+                        <p className="text-gray-600 dark:text-gray-300 mb-2">K & S Partners</p>
                         <ul className="text-sm text-gray-500 dark:text-gray-400 space-y-1">
-                          <li>• Delivered 50+ AI/ML and DevOps projects for startups and enterprises</li>
-                          <li>• Reduced deployment time by 70% through CI/CD pipeline optimization</li>
-                          <li>• Built scalable web applications serving 10K+ users</li>
+                          <li>• Gained hands-on experience in Patent Prosecution (Examination Response, Hearing Submissions & Strategies)</li>
+                          <li>• Worked on AI/ML, Network and Software Based Patents for Qualcomm</li>
+                          <li>• Automated patent research workflows using Python scripts, reducing manual intervention by 30%</li>
                         </ul>
                       </CardContent>
                     </Card>
@@ -100,14 +101,14 @@ const About = () => {
                     <Card className="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600">
                       <CardContent className="p-6">
                         <div className="flex items-start justify-between mb-2">
-                          <h5 className="font-semibold text-gray-800 dark:text-white">Software Engineering Intern</h5>
-                          <span className="text-sm text-gray-500 dark:text-gray-400">2021 - 2022</span>
+                          <h5 className="font-semibold text-gray-800 dark:text-white">Freelance Software Engineer</h5>
+                          <span className="text-sm text-gray-500 dark:text-gray-400">2024 - Present</span>
                         </div>
-                        <p className="text-gray-600 dark:text-gray-300 mb-2">Tech Startup Inc.</p>
+                        <p className="text-gray-600 dark:text-gray-300 mb-2">Independent Consultant</p>
                         <ul className="text-sm text-gray-500 dark:text-gray-400 space-y-1">
-                          <li>• Developed REST APIs using Node.js and Express.js</li>
-                          <li>• Implemented automated testing with 90% code coverage</li>
-                          <li>• Collaborated with cross-functional teams using Agile methodologies</li>
+                          <li>• Specializing in Cloud Infrastructure, DevOps automation, and AI/ML solutions</li>
+                          <li>• Building full-stack web applications and REST APIs using modern technologies</li>
+                          <li>• Helping startups and entrepreneurs with technical consulting and MVP development</li>
                         </ul>
                       </CardContent>
                     </Card>
