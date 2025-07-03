@@ -109,6 +109,7 @@ Changelog:
 - July 03, 2025. Fixed social media icons in footer (replaced Font Awesome with React Icons)
 - July 03, 2025. Updated contact information: email to piyushdubey490@icloud.com, phone to +91 78918 13326
 - July 03, 2025. Fixed contact form to work without EmailJS errors, messages now stored in database
+- July 03, 2025. Updated web development service to remove database design, added WordPress and Wix services
 ```
 
 ## User Preferences

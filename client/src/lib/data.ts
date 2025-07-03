@@ -27,13 +27,13 @@ export const services: Service[] = [
   },
   {
     id: 'web-dev',
-    title: 'Web App & SaaS MVP Development',
-    description: 'Full-stack web applications and SaaS MVP development using modern technologies for rapid market validation.',
+    title: 'Web Development & Website Creation',
+    description: 'Professional websites and web applications using modern technologies, including WordPress and Wix solutions.',
     icon: 'code',
     features: [
       'React/Next.js Development',
-      'Backend API Development',
-      'Database Design & Optimization'
+      'WordPress Website Development',
+      'Wix Website Design & Setup'
     ],
     gradient: 'from-purple-500 to-pink-600'
   },
