@@ -58,7 +58,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              {['home', 'services', 'about', 'projects', 'contact'].map((section) => (
+              {['home', 'services', 'about', 'projects', 'blog', 'contact'].map((section) => (
                 <li key={section}>
                   <button
                     onClick={() => scrollToSection(section)}

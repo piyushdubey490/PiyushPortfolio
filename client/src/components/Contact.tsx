@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, MessageSquare, MapPin, Phone } from 'lucide-react';
+import { Mail, MessageSquare, MapPin, Phone, Linkedin, Github, Twitter } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -68,12 +68,12 @@ const Contact = () => {
 
   const getSocialIcon = (iconName: string) => {
     const iconMap: { [key: string]: any } = {
-      linkedin: 'fab fa-linkedin-in',
-      github: 'fab fa-github',
-      twitter: 'fab fa-twitter',
-      envelope: 'fas fa-envelope',
+      linkedin: Linkedin,
+      github: Github,
+      twitter: Twitter,
+      envelope: Mail,
     };
-    return iconMap[iconName] || 'fas fa-link';
+    return iconMap[iconName] || Mail;
   };
 
   return (
@@ -250,18 +250,21 @@ const Contact = () => {
                 <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-6">Connect With Me</h3>
                 
                 <div className="grid grid-cols-2 gap-4">
-                  {socialLinks.map((social) => (
-                    <a
-                      key={social.name}
-                      href={social.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`flex items-center justify-center space-x-3 p-4 bg-${social.color} hover:opacity-90 text-white rounded-lg transition-colors`}
-                    >
-                      <i className={getSocialIcon(social.icon)}></i>
-                      <span className="font-medium">{social.name}</span>
-                    </a>
-                  ))}
+                  {socialLinks.map((social) => {
+                    const IconComponent = getSocialIcon(social.icon);
+                    return (
+                      <a
+                        key={social.name}
+                        href={social.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`flex items-center justify-center space-x-3 p-4 ${social.color} hover:opacity-90 text-white rounded-lg transition-colors`}
+                      >
+                        <IconComponent className="w-5 h-5" />
+                        <span className="font-medium">{social.name}</span>
+                      </a>
+                    );
+                  })}
                 </div>
               </CardContent>
             </Card>

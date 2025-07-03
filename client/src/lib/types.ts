@@ -45,3 +45,17 @@ export interface SocialLink {
   icon: string;
   color: string;
 }
+
+export interface BlogPost {
+  id: string;
+  title: string;
+  slug: string;
+  excerpt: string;
+  content: string;
+  publishedAt: string;
+  readTime: number;
+  tags: string[];
+  featured: boolean;
+  author: string;
+  image?: string;
+}
