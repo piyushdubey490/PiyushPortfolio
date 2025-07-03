@@ -256,7 +256,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-800 dark:text-white">Location</h4>
-                      <p className="text-gray-600 dark:text-gray-300">Mumbai, India</p>
+                      <p className="text-gray-600 dark:text-gray-300">Hyderabad, India [Present]</p>
                       <p className="text-sm text-gray-500 dark:text-gray-400">Available for remote work worldwide</p>
                     </div>
                   </div>
@@ -308,7 +308,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      
       {/* WhatsApp Floating Button */}
       <div className="fixed bottom-6 right-6 z-50">
         <a
