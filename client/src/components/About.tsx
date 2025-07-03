@@ -88,7 +88,23 @@ const About = () => {
                     <Card className="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600">
                       <CardContent className="p-6">
                         <div className="flex items-start justify-between mb-2">
-                          <h5 className="font-semibold text-gray-800 dark:text-white">Intern</h5>
+                          <h5 className="font-semibold text-gray-800 dark:text-white">Software Developer 2</h5>
+                          <span className="text-sm text-gray-500 dark:text-gray-400">2024 - Present</span>
+                        </div>
+                        <p className="text-gray-600 dark:text-gray-300 mb-2">Wipro Technologies</p>
+                        <ul className="text-sm text-gray-500 dark:text-gray-400 space-y-1">
+                          <li>• Developing enterprise-level software solutions using cutting-edge technologies</li>
+                          <li>• Working on cloud-based applications and microservices architecture</li>
+                          <li>• Collaborating with cross-functional teams to deliver high-quality software products</li>
+                          <li>• Implementing best practices in software development and DevOps methodologies</li>
+                        </ul>
+                      </CardContent>
+                    </Card>
+                    
+                    <Card className="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600">
+                      <CardContent className="p-6">
+                        <div className="flex items-start justify-between mb-2">
+                          <h5 className="font-semibold text-gray-800 dark:text-white">Patent Research Intern</h5>
                           <span className="text-sm text-gray-500 dark:text-gray-400">Oct 2023 - July 2024</span>
                         </div>
                         <p className="text-gray-600 dark:text-gray-300 mb-2">K & S Partners</p>
@@ -96,6 +112,39 @@ const About = () => {
                           <li>• Gained hands-on experience in Patent Prosecution (Examination Response, Hearing Submissions & Strategies)</li>
                           <li>• Worked on AI/ML, Network and Software Based Patents for Qualcomm</li>
                           <li>• Automated patent research workflows using Python scripts, reducing manual intervention by 30%</li>
+                          <li>• Analyzed complex technical patents and prepared detailed prosecution strategies</li>
+                        </ul>
+                      </CardContent>
+                    </Card>
+                    
+                    <Card className="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600">
+                      <CardContent className="p-6">
+                        <div className="flex items-start justify-between mb-2">
+                          <h5 className="font-semibold text-gray-800 dark:text-white">Technical Head</h5>
+                          <span className="text-sm text-gray-500 dark:text-gray-400">2022 - 2024</span>
+                        </div>
+                        <p className="text-gray-600 dark:text-gray-300 mb-2">IEEE Student Chapter, Lovely Professional University</p>
+                        <ul className="text-sm text-gray-500 dark:text-gray-400 space-y-1">
+                          <li>• Led technical initiatives and organized workshops on emerging technologies</li>
+                          <li>• Managed technical events and hackathons for 500+ students</li>
+                          <li>• Mentored junior students in software development and project management</li>
+                          <li>• Coordinated industry collaboration programs and guest lecture series</li>
+                        </ul>
+                      </CardContent>
+                    </Card>
+                    
+                    <Card className="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600">
+                      <CardContent className="p-6">
+                        <div className="flex items-start justify-between mb-2">
+                          <h5 className="font-semibold text-gray-800 dark:text-white">Graphic Designer</h5>
+                          <span className="text-sm text-gray-500 dark:text-gray-400">2021 - 2023</span>
+                        </div>
+                        <p className="text-gray-600 dark:text-gray-300 mb-2">School of CSE, Lovely Professional University</p>
+                        <ul className="text-sm text-gray-500 dark:text-gray-400 space-y-1">
+                          <li>• Designed marketing materials, posters, and digital content for academic events</li>
+                          <li>• Created visual identities for student organizations and technical symposiums</li>
+                          <li>• Collaborated with faculty and administration on branding initiatives</li>
+                          <li>• Developed multimedia content for online platforms and social media campaigns</li>
                         </ul>
                       </CardContent>
                     </Card>
@@ -104,13 +153,14 @@ const About = () => {
                       <CardContent className="p-6">
                         <div className="flex items-start justify-between mb-2">
                           <h5 className="font-semibold text-gray-800 dark:text-white">Freelance Software Engineer</h5>
-                          <span className="text-sm text-gray-500 dark:text-gray-400">2024 - Present</span>
+                          <span className="text-sm text-gray-500 dark:text-gray-400">2023 - Present</span>
                         </div>
                         <p className="text-gray-600 dark:text-gray-300 mb-2">Independent Consultant</p>
                         <ul className="text-sm text-gray-500 dark:text-gray-400 space-y-1">
                           <li>• Specializing in Cloud Infrastructure, DevOps automation, and AI/ML solutions</li>
                           <li>• Building full-stack web applications and REST APIs using modern technologies</li>
                           <li>• Helping startups and entrepreneurs with technical consulting and MVP development</li>
+                          <li>• Delivering custom software solutions for diverse industry clients</li>
                         </ul>
                       </CardContent>
                     </Card>
