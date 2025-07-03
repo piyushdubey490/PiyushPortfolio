@@ -1,4 +1,5 @@
 import { socialLinks } from '@/lib/data';
+import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
@@ -12,14 +13,14 @@ const Footer = () => {
     }
   };
 
-  const getSocialIconClass = (iconName: string) => {
-    const iconMap: { [key: string]: string } = {
-      linkedin: 'fab fa-linkedin-in',
-      github: 'fab fa-github',
-      twitter: 'fab fa-twitter',
-      envelope: 'fas fa-envelope',
+  const getSocialIcon = (iconName: string) => {
+    const iconMap: { [key: string]: JSX.Element } = {
+      linkedin: <FaLinkedin className="w-4 h-4" />,
+      github: <FaGithub className="w-4 h-4" />,
+      twitter: <FaTwitter className="w-4 h-4" />,
+      envelope: <FaEnvelope className="w-4 h-4" />,
     };
-    return iconMap[iconName] || 'fas fa-link';
+    return iconMap[iconName] || <FaEnvelope className="w-4 h-4" />;
   };
 
   return (
@@ -48,7 +49,7 @@ const Footer = () => {
                   className="w-10 h-10 bg-gray-700 hover:bg-blue-500 rounded-lg flex items-center justify-center transition-colors"
                   title={social.name}
                 >
-                  <i className={getSocialIconClass(social.icon)}></i>
+                  {getSocialIcon(social.icon)}
                 </a>
               ))}
             </div>
