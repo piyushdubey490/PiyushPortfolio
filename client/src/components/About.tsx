@@ -74,9 +74,13 @@ const About = () => {
                         <span className="text-sm text-gray-500 dark:text-gray-400">Aug 2020 – June 2024</span>
                       </div>
                       <p className="text-gray-600 dark:text-gray-300">Lovely Professional University, Phagwara, Punjab • CGPA: 8.41/10</p>
-                      <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-                        Focus areas: Cloud Computing, AI/ML, DevOps, Software Engineering, Database Management Systems
-                      </p>
+                      <div className="text-sm text-gray-500 dark:text-gray-400 mt-2 space-y-1">
+                        <p><strong>Specialization:</strong> Machine Learning</p>
+                        <p><strong>Open Minor:</strong> DevOps</p>
+                        <p><strong>Leadership:</strong> Class Representative, active participant in extracurricular activities</p>
+                        <p><strong>Achievements:</strong> Participated and won multiple hackathons during academic tenure</p>
+                        <p><strong>Focus areas:</strong> Cloud Computing, AI/ML, DevOps, Software Engineering, Database Management Systems</p>
+                      </div>
                     </CardContent>
                   </Card>
                 </div>

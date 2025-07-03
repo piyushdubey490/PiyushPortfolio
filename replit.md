@@ -127,6 +127,7 @@ Changelog:
 - July 03, 2025. Fixed WhatsApp floating button to redirect to correct phone number (+917891813326)
 - July 03, 2025. Expanded experience section with 5 professional roles: Wipro Software Developer 2, IEEE Technical Head, Graphic Designer at LPU, K&S Partners internship, and freelance work
 - July 03, 2025. Updated hero stats to reflect 4+ years experience and 5+ professional roles
+- July 03, 2025. Enhanced education section with Machine Learning specialization, DevOps minor, Class Representative role, and hackathon achievements
 ```
 
 ## User Preferences
