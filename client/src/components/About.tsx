@@ -7,7 +7,7 @@ import { skills, certifications } from '@/lib/data';
 const About = () => {
   const handleDownloadResume = () => {
     // Replace with actual resume file URL
-    const resumeUrl = '/resume-piyush-dubey.pdf';
+    const resumeUrl = 'https://drive.google.com/file/d/1nGC4OcJSDASzTFl-mDeIBu-GpTqsn9nH/view?usp=drivesdk';
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = 'Piyush_Dubey_Resume.pdf';

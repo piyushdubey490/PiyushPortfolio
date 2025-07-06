@@ -21,7 +21,7 @@ const Hero = () => {
 
   const handleLinkedIn = () => {
     // LinkedIn profile link
-    window.open('https://www.linkedin.com/in/piyush-dubey-professional/', '_blank');
+    window.open('https://www.linkedin.com/in/piyushdubey490/', '_blank');
   };
 
   return (
