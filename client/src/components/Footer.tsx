@@ -35,7 +35,7 @@ const Footer = () => {
               Transforming complex challenges into elegant, efficient systems.
             </p>
             <p className="text-sm text-gray-400">
-              Available for freelance projects and consulting opportunities worldwide.
+              Available for freelance projects and consulting opportunities , contact me anytime.
             </p>
             
             {/* Social Links */}
